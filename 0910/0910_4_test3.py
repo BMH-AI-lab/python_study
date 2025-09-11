@@ -1,0 +1,5 @@
+name1, name2, name3 = input("발표자 이름 3명을 입력하세요: ").split()
+ppt1, ppt2, ppt3 = input("발표 주제 3개를 입력하세요: ").split()
+print("1조 발표자:", name1, "- 주제: ", ppt1)
+print("2조 발표자:", name2, "- 주제: ", ppt2)
+print("3조 발표자:", name3, "- 주제: ", ppt3)
