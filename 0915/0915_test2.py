@@ -10,7 +10,7 @@ user2 = {'Drama', 'Romance', 'Action'}
 
 print("공통 관심 장르: ", user1 & user2)
 print("서로 다른 장르: ", user1 ^ user2)
-print("잔체 장르: ", user1 | user2)
+print("전체 장르: ", user1 | user2)
 
 #문제 3. 부분집합 관계 판단
 my_certificates = {'SQL', 'Python', 'Linux'}
