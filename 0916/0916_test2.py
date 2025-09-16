@@ -1,5 +1,7 @@
 students = dict()
-students = {"Alice": 85, "Bob": 90, "Charlie": 95}
+name = ["Alice", "Bob", "Charlie"]
+score =[85, 90, 95]
+students = dict(zip(name, score))
 students.update({"David": 80})
 students["Alice"] = 88
 del students['Bob']

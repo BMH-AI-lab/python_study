@@ -1,5 +1,6 @@
 # 문제 1. 딕셔너리 핵심 개념 통합 실습
-user = {"username": "skywalker", "email": "sky@example.com", "level": 5}
+user = dict()
+user.update({"username": "skywalker", "email": "sky@example.com", "level": 5})
 email_value = user["email"]
 print("email 값 읽기: ", email_value)
 user["level"] = 6
