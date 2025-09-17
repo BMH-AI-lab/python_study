@@ -2,7 +2,7 @@
 submissions = ['kim', 'lee', 'kim', 'park', 'choi', 'lee', 'lee']
 submissions1 = set(submissions)
 print("제출한 학생 수: ", len(submissions1))
-print("제출자 명단: ",submissions1)
+print("제출자 명단: ", submissions1)
 
 # 문제 2. 공동 관심사 찾기 
 user1 = {'SF', 'Action', 'Drama'}
