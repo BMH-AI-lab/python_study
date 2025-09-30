@@ -26,7 +26,8 @@ class Battle:
         self.f1.show_status()
         self.f2.show_status()
 
-        # 선공 랜덤
+        # 두 플레이어 중 선공을 랜덤으로 정함 
+        # 선공자가 정해지면 후공자가 정해짐 
         turn = self.f1 if random.random() < 0.5 else self.f2
         other = self.f2 if turn is self.f1 else self.f1
         print(f"선공: {turn.get_name()}")

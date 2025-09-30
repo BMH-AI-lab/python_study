@@ -18,7 +18,7 @@ def get_user_choice(prompt: str, choices: dict):
         sel = input("번호를 입력하세요: ").strip()
         if sel in choices:
             return sel
-        print("❌ 올바른 번호를 입력하세요.")
+        print("올바른 번호를 입력하세요.")
 
 
 def reset_resources(character):

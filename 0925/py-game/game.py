@@ -25,7 +25,8 @@ def reset_resources(ch):
         ch.mana = ch.max_mana
 
 def main():
-    print("=== PY-RPG ===")
+    print()
+    print("=== RPG 게임 ===")
     player = choose_character("당신의 캐릭터를 선택하세요.")
     while True:
         enemy = choose_character("상대 캐릭터를 선택하세요.")

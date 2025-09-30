@@ -1,0 +1,3 @@
+User1의 이름: 김철수, user1의 비밀번호:  python123
+User2의 이름: 이영희, user2의 비밀번호:  python456
+User3의 이름: 박민수, user3의 비밀번호:  python789

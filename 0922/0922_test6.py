@@ -11,7 +11,7 @@ class Student:
     
     @score.setter
     def score(self, value):
-        if  0  <= value <= 100:
+        if  0 <= value <= 100:
           self.__score = value
         else:
           raise ValueError("범위를 넘었습니다.")

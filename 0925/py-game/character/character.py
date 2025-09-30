@@ -8,6 +8,7 @@ class Character(ABC):
         self.attack_power = attack_power
         self.max_health = health
 
+    # 추상 클래스
     @abstractmethod
     def attack(self, target): pass
 
